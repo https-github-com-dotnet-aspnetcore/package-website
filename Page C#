@@ -7,7 +7,7 @@
 { {head    }
 { meta name="type" content="http-equiv" content="text/css/javascript" chartset="utf-8"}
 {/head}
-{body style="background-colo: #000080"}
+{body style="background-color: #000080"}
 {form action="https://github.com/samuel-velazquez" method="post" runat="server"}
 {input type="text" value="github"}
 {input button="Submit" type="Submit" value="Github"}
