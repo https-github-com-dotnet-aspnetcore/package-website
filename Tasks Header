@@ -1,0 +1,44 @@
+<!Docktype html>
+<head><!-- Referencias de Office: -->
+<link rel="stylesheet" type="text/css" href="Content/Office.css">
+<script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+<meta name="javascript" http-equiv="content-type" content="javascript/text/css" name="type">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="Microsoft Theme" content="copy-of-blends 1111, default">
+<meta name="Microsoft Border" content="tlb">
+</head>
+<body style="background-color: #000080"
+<em>
+<asp:Menu 
+			id="Menu1" runat="server" BackColor="#F7F6F3" 
+			DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" 
+			ForeColor="#7C6F57" StaticSubMenuIndent="10px" 
+			ScrollUpImageUrl="papillon-MSN.png" Target="Self" CssClass="windows-1252" 
+			DataSourceID="SiteMapDataSource1">
+			<DataBindings>
+				<asp:MenuItemBinding />
+			</DataBindings>
+			<DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
+			<DynamicMenuItemStyle HorizontalPadding="5px" 
+			VerticalPadding="2px" />
+			<DynamicMenuStyle BackColor="#F7F6F3" />
+			<DynamicSelectedStyle BackColor="#5D7B9D" />
+			<Items>
+				<asp:MenuItem Text="New Item" Value="New Item" Target="self">
+				</asp:MenuItem>
+			</Items>
+			<StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
+			<StaticMenuItemStyle HorizontalPadding="5px" 
+			VerticalPadding="2px" />
+			<StaticSelectedStyle BackColor="#5D7B9D" />
+			<StaticItemTemplate>
+				<%# Eval("Text") %>
+			</StaticItemTemplate>
+		</asp:Menu>
+			<em>
+		<asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server">
+		</asp:SiteMapDataSource><br>
+</body>
+</html>
