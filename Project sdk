@@ -49,3 +49,8 @@ $ npm publish
     "@octo-org/octo-app": "1.0.0"
   }
 }
+ // Step 1: Pack
+$ dotnet pack --configuration Release
+
+// Step 2: Publish
+$ dotnet nuget push "bin/Release/package-website.1.0.0.nupkg" --source "github" 
